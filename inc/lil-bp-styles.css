@@ -1,0 +1,24 @@
+.wp-block-columns.pricing-table .wp-block-column {
+    border: 1px solid #000000;
+    margin-left: 0;
+    padding-bottom: 40px;
+}
+
+.wp-block-columns.pricing-table .wp-block-column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.wp-block-columns.pricing-table .wp-block-column ul li {
+    border-bottom: 1px solid #000000;
+    margin: 20px;
+
+
+}
+
+.wp-block-columns.pricing-table .wp-block-column:nth-child(2) ul li {
+    border-color: white;
+}
