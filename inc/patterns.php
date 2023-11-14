@@ -32,7 +32,7 @@ function lil_bp_patterns() {
         'lil-block-patterns/pricing-table',
         array(
             'title' => __("Pricing table", 'lil-bp'),
-            'description' => _x('A 3-column pricing table with button', 'lil-bp'),
+            'description' => _x('A 3-column pricing table with buttons', 'lil-bp'),
             'content' => $pricing_table,
             'categories' => array('buttons', 'columns'),
             'keywords' => array('cta', 'call to action', 'pricing table'),
