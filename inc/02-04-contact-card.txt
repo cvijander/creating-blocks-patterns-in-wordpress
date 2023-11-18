@@ -1,0 +1,39 @@
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"}}},"backgroundColor":"white","className":"contact-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide contact-card has-white-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"align":"center","id":76,"width":"186px","height":"auto","sizeSlug":"medium","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image aligncenter size-medium is-resized is-style-rounded"><img src="https://jednostavanwebsajt.com/wp-content/uploads/2023/11/rebeccabarger002-1024x684-pxhxv3oh8k8rdo70bdnumeclhp0l94muf0x84n6qow-300x300.jpg" alt="" class="wp-image-76" style="width:186px;height:auto"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:social-links {"size":"has-normal-icon-size","align":"center","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"120px","right":"120px"}}},"className":"is-style-default","layout":{"type":"flex","orientation":"horizontal"}} -->
+<ul class="wp-block-social-links aligncenter has-normal-icon-size is-style-default" style="padding-top:0;padding-right:120px;padding-bottom:0;padding-left:120px"><!-- wp:social-link {"url":"https://twitter.com/jcasabona","service":"twitter"} /-->
+
+<!-- wp:social-link {"service":"instagram"} /-->
+
+<!-- wp:social-link {"service":"youtube"} /-->
+
+<!-- wp:social-link {"service":"github"} /-->
+
+<!-- wp:social-link {"service":"feed"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading -->
+<h2 class="wp-block-heading">Contact Me</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Address</strong>: 123 Linkedin Lane, San Dimas </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Phone</strong>: 123/456-789</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Email</strong>: joe@izmisljenimail.com</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
