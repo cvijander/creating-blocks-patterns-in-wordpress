@@ -34,3 +34,15 @@
     margin: 0;
     border-bottom: 1px dotted #999999;
 }
+
+/** Masthead  **/
+
+.wp-block-group.lil-masthead {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-family: Garamond,serif !important;
+}
+.wp-block-group.lil-masthead h1 {
+    font-family: Garamond, serif !important;
+}

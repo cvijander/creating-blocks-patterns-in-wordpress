@@ -12,7 +12,10 @@ function lil_bp_patterns() {
     
     $contact_card ="<!-- wp:group {\"align\":\"wide\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"40px\",\"bottom\":\"40px\",\"left\":\"40px\",\"right\":\"40px\"}}},\"backgroundColor\":\"white\",\"className\":\"contact-card\",\"layout\":{\"type\":\"constrained\"}} -->\r\n<div class=\"wp-block-group alignwide contact-card has-white-background-color has-background\" style=\"padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px\"><!-- wp:columns {\"align\":\"wide\"} -->\r\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:image {\"align\":\"center\",\"id\":76,\"width\":\"186px\",\"height\":\"auto\",\"sizeSlug\":\"medium\",\"linkDestination\":\"none\",\"className\":\"is-style-rounded\"} -->\r\n<figure class=\"wp-block-image aligncenter size-medium is-resized is-style-rounded\"><img src=\"https://jednostavanwebsajt.com/wp-content/uploads/2023/11/rebeccabarger002-1024x684-pxhxv3oh8k8rdo70bdnumeclhp0l94muf0x84n6qow-300x300.jpg\" alt=\"\" class=\"wp-image-76\" style=\"width:186px;height:auto\"/></figure>\r\n<!-- /wp:image -->\r\n\r\n<!-- wp:social-links {\"size\":\"has-normal-icon-size\",\"align\":\"center\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"0\",\"bottom\":\"0\",\"left\":\"120px\",\"right\":\"120px\"}}},\"className\":\"is-style-default\",\"layout\":{\"type\":\"flex\",\"orientation\":\"horizontal\"}} -->\r\n<ul class=\"wp-block-social-links aligncenter has-normal-icon-size is-style-default\" style=\"padding-top:0;padding-right:120px;padding-bottom:0;padding-left:120px\"><!-- wp:social-link {\"url\":\"https://twitter.com/jcasabona\",\"service\":\"twitter\"} /-->\r\n\r\n<!-- wp:social-link {\"service\":\"instagram\"} /-->\r\n\r\n<!-- wp:social-link {\"service\":\"youtube\"} /-->\r\n\r\n<!-- wp:social-link {\"service\":\"github\"} /-->\r\n\r\n<!-- wp:social-link {\"service\":\"feed\"} /--></ul>\r\n<!-- /wp:social-links --></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:heading -->\r\n<h2 class=\"wp-block-heading\">Contact Me</h2>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><strong>Address</strong>: 123 Linkedin Lane, San Dimas </p>\r\n<!-- /wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><strong>Phone</strong>: 123/456-789</p>\r\n<!-- /wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><strong>Email</strong>: joe@izmisljenimail.com</p>\r\n<!-- /wp:paragraph --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns --></div>\r\n<!-- /wp:group -->";
     
+    $query= "<!-- wp:query {\"queryId\":11,\"query\":{\"perPage\":3,\"pages\":0,\"offset\":0,\"postType\":\"post\",\"order\":\"desc\",\"orderBy\":\"date\",\"author\":\"\",\"search\":\"\",\"exclude\":[],\"sticky\":\"\",\"inherit\":false},\"align\":\"wide\",\"className\":\"lil-posts\"} -->\r\n<div class=\"wp-block-query alignwide lil-posts\"><!-- wp:post-template -->\r\n<!-- wp:post-featured-image /-->\r\n\r\n<!-- wp:post-title /-->\r\n\r\n<!-- wp:columns -->\r\n<div class=\"wp-block-columns\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:post-date /--></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:post-terms {\"term\":\"category\"} /--></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns -->\r\n\r\n<!-- wp:post-excerpt {\"moreText\":\"\\u003cstrong\\u003eRead more\\u003c/strong\\u003e\"} /-->\r\n<!-- /wp:post-template -->\r\n\r\n<!-- wp:query-pagination -->\r\n<!-- wp:query-pagination-previous /-->\r\n\r\n<!-- wp:query-pagination-numbers /-->\r\n\r\n<!-- wp:query-pagination-next /-->\r\n<!-- /wp:query-pagination -->\r\n\r\n<!-- wp:query-no-results -->\r\n<!-- wp:paragraph {\"placeholder\":\"Add text or blocks that will display when a query returns no results.\"} -->\r\n<p></p>\r\n<!-- /wp:paragraph -->\r\n<!-- /wp:query-no-results --></div>\r\n<!-- /wp:query -->";
     
+    $masthead="<!-- wp:group {\"align\":\"full\",\"backgroundColor\":\"white\",\"className\":\"lil-masthead\",\"layout\":{\"type\":\"constrained\"}} -->\r\n<div class=\"wp-block-group alignfull lil-masthead has-white-background-color has-background\"><!-- wp:columns {\"verticalAlignment\":null,\"align\":\"full\"} -->\r\n<div class=\"wp-block-columns alignfull\"><!-- wp:column {\"verticalAlignment\":\"bottom\",\"width\":\"20%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-bottom\" style=\"flex-basis:20%\"><!-- wp:site-tagline {\"textAlign\":\"left\"} /--></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"verticalAlignment\":\"bottom\",\"width\":\"60%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-bottom\" style=\"flex-basis:60%\"><!-- wp:site-logo {\"shouldSyncIcon\":true,\"align\":\"center\"} /-->\r\n\r\n<!-- wp:site-title {\"textAlign\":\"center\",\"style\":{\"typography\":{\"fontSize\":\"75px\"}}} /--></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"verticalAlignment\":\"bottom\",\"width\":\"20%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-bottom\" style=\"flex-basis:20%\"><!-- wp:navigation {\"ref\":4,\"backgroundColor\":\"white\",\"layout\":{\"type\":\"flex\",\"justifyContent\":\"right\"}} /--></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns --></div>\r\n<!-- /wp:group -->";
+
     register_block_pattern(
         'lil-block-patterns/podcast-embed', 
         array (
@@ -65,6 +68,29 @@ function lil_bp_patterns() {
             'content' => $contact_card,
             'categories' => array('buttons', 'columns'),
             'keywords' => array('bio', 'contact', 'social','address','phone','email'),
+        )
+    );
+
+
+    register_block_pattern(
+        'lil-block-patterns/query',
+        array(
+            'title' => __("3 Column Posts", 'lil-bp'),
+            'description' => _x('A 3-column post layout', 'lil-bp'),
+            'content' => $query,
+            'categories' => array('query', 'columns'),
+            'keywords' => array('posts', 'query', 'post layout'),
+        )
+    );
+
+    register_block_pattern(
+        'lil-block-patterns/masthead',
+        array(
+            'title' => __("Masthead", 'lil-bp'),
+            'description' => _x('A 3-column header layout', 'lil-bp'),
+            'content' => $masthead,
+            'categories' => array('columns','header'),
+            'keywords' => array('masthead', 'header', 'site info'),
         )
     );
 }
