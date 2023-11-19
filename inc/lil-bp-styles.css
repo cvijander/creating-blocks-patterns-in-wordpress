@@ -46,3 +46,9 @@
 .wp-block-group.lil-masthead h1 {
     font-family: Garamond, serif !important;
 }
+
+/** Hero Section **/
+.wp-block-cover.hero-section .wp-block-button a.wp-block-button__link:hover {
+    border-color:transparent !important ;
+    color: #FFFFFF !important;
+}

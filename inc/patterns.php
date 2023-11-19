@@ -113,12 +113,15 @@ function lil_bp_patterns() {
     register_block_pattern(
         'lil-block-patterns/hero',
         array(
-            'title' => __("Hero Section", 'lil-bp'),
-            'description' =>$hero,
+            'title' => __("Hero section", 'lil-bp'),
+            'description' => _x('A cover block with text and a button for a CTA', 'lil-bp'),
+            'content' => $hero,
             'categories' => array('text','header'),
-            'keywords' => array('hero section','CTA', 'call to action'),
+            'keywords' => array('hero section', 'CTA', 'call to action'),
         )
     );
+
+    
 }
 
 

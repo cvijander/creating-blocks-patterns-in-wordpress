@@ -31,8 +31,9 @@
   }
 
   add_action ('wp_enqueue_scripts', 'lil_bp_add_styles');
-
-  require_once ('inc/patterns.php')
+  
+  require_once('inc/categories.php');
+  require_once ('inc/patterns.php');
 
 
 
