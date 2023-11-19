@@ -1,0 +1,19 @@
+<!-- wp:group {"align":"wide","style":{"color":{"gradient":"linear-gradient(135deg,rgb(9,0,0) 0%,rgb(137,37,37) 46%,rgb(4,0,0) 100%)"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"textColor":"white","className":"currently-listening","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide currently-listening has-white-color has-text-color has-background has-link-color" style="background:linear-gradient(135deg,rgb(9,0,0) 0%,rgb(137,37,37) 46%,rgb(4,0,0) 100%);padding-top:40px;padding-bottom:40px"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center"><strong>Currently Listening</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:separator {"backgroundColor":"white","className":"is-style-twentytwentyone-separator-thick"} -->
+<hr class="wp-block-separator has-text-color has-white-color has-alpha-channel-opacity has-white-background-color has-background is-style-twentytwentyone-separator-thick"/>
+<!-- /wp:separator -->
+
+<!-- wp:embed {"url":"https://soundcloud.com/user-85223281/gorrilaz-feel-good-inc-x-michael-jackson-beat-it-mash-up-2017","type":"rich","providerNameSlug":"soundcloud","responsive":true} -->
+<figure class="wp-block-embed is-type-rich is-provider-soundcloud wp-block-embed-soundcloud"><div class="wp-block-embed__wrapper">
+https://soundcloud.com/user-85223281/gorrilaz-feel-good-inc-x-michael-jackson-beat-it-mash-up-2017
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph {"align":"center","fontSize":"extra-large"} -->
+<p class="has-text-align-center has-extra-large-font-size"><strong>Current Mood: Happy!</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->

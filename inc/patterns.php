@@ -16,6 +16,7 @@ function lil_bp_patterns() {
     
     $masthead="<!-- wp:group {\"align\":\"full\",\"backgroundColor\":\"white\",\"className\":\"lil-masthead\",\"layout\":{\"type\":\"constrained\"}} -->\r\n<div class=\"wp-block-group alignfull lil-masthead has-white-background-color has-background\"><!-- wp:columns {\"verticalAlignment\":null,\"align\":\"full\"} -->\r\n<div class=\"wp-block-columns alignfull\"><!-- wp:column {\"verticalAlignment\":\"bottom\",\"width\":\"20%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-bottom\" style=\"flex-basis:20%\"><!-- wp:site-tagline {\"textAlign\":\"left\"} /--></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"verticalAlignment\":\"bottom\",\"width\":\"60%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-bottom\" style=\"flex-basis:60%\"><!-- wp:site-logo {\"shouldSyncIcon\":true,\"align\":\"center\"} /-->\r\n\r\n<!-- wp:site-title {\"textAlign\":\"center\",\"style\":{\"typography\":{\"fontSize\":\"75px\"}}} /--></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"verticalAlignment\":\"bottom\",\"width\":\"20%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-bottom\" style=\"flex-basis:20%\"><!-- wp:navigation {\"ref\":4,\"backgroundColor\":\"white\",\"layout\":{\"type\":\"flex\",\"justifyContent\":\"right\"}} /--></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns --></div>\r\n<!-- /wp:group -->";
 
+    $listening ="<!-- wp:group {\"align\":\"wide\",\"style\":{\"color\":{\"gradient\":\"linear-gradient(135deg,rgb(9,0,0) 0%,rgb(137,37,37) 46%,rgb(4,0,0) 100%)\"},\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|white\"}}},\"spacing\":{\"padding\":{\"top\":\"40px\",\"bottom\":\"40px\"}}},\"textColor\":\"white\",\"className\":\"currently-listening\",\"layout\":{\"type\":\"constrained\"}} -->\r\n<div class=\"wp-block-group alignwide currently-listening has-white-color has-text-color has-background has-link-color\" style=\"background:linear-gradient(135deg,rgb(9,0,0) 0%,rgb(137,37,37) 46%,rgb(4,0,0) 100%);padding-top:40px;padding-bottom:40px\"><!-- wp:heading {\"textAlign\":\"center\"} -->\r\n<h2 class=\"wp-block-heading has-text-align-center\"><strong>Currently Listening</strong></h2>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:separator {\"backgroundColor\":\"white\",\"className\":\"is-style-twentytwentyone-separator-thick\"} -->\r\n<hr class=\"wp-block-separator has-text-color has-white-color has-alpha-channel-opacity has-white-background-color has-background is-style-twentytwentyone-separator-thick\"/>\r\n<!-- /wp:separator -->\r\n\r\n<!-- wp:embed {\"url\":\"https://soundcloud.com/user-85223281/gorrilaz-feel-good-inc-x-michael-jackson-beat-it-mash-up-2017\",\"type\":\"rich\",\"providerNameSlug\":\"soundcloud\",\"responsive\":true} -->\r\n<figure class=\"wp-block-embed is-type-rich is-provider-soundcloud wp-block-embed-soundcloud\"><div class=\"wp-block-embed__wrapper\">\r\nhttps://soundcloud.com/user-85223281/gorrilaz-feel-good-inc-x-michael-jackson-beat-it-mash-up-2017\r\n</div></figure>\r\n<!-- /wp:embed -->\r\n\r\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"extra-large\"} -->\r\n<p class=\"has-text-align-center has-extra-large-font-size\"><strong>Current Mood: Happy!</strong></p>\r\n<!-- /wp:paragraph --></div>\r\n<!-- /wp:group -->";
     register_block_pattern(
         'lil-block-patterns/podcast-embed', 
         array (
@@ -91,6 +92,17 @@ function lil_bp_patterns() {
             'content' => $masthead,
             'categories' => array('columns','header'),
             'keywords' => array('masthead', 'header', 'site info'),
+        )
+    );
+
+    register_block_pattern(
+        'lil-block-patterns/currently-listening',
+        array(
+            'title' => __("Currently listening", 'lil-bp'),
+            'description' => _x('An embed widget to show what we are listening to', 'lil-bp'),
+            'content' => $listening,
+            'categories' => array('text'),
+            'keywords' => array('music', 'embed', 'mood'),
         )
     );
 }
